@@ -9,7 +9,10 @@
   "author": "Khoi Tran",
   "license": "MIT",
   "babel": {
-    "presets": ["env", "react"]
+    "presets": [
+      "env",
+      "react"
+    ]
   },
   "devDependencies": {
     "babel-core": "^6.24.0",
@@ -23,7 +26,10 @@
     "webpack-dev-server": "^2.4.2"
   },
   "dependencies": {
+    "axios": "^0.17.1",
+    "prop-types": "^15.6.0",
     "react": "^16.0.0-alpha.5",
-    "react-dom": "^16.0.0-alpha.5"
+    "react-dom": "^16.0.0-alpha.5",
+    "react-router-dom": "^4.2.2"
   }
 }
